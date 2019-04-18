@@ -2,5 +2,7 @@ theme: jekyll-theme-cayman
 title: Abilio Castro
 description: Micro Empreendedor Individual e Estudante de Engenharia de Software
 show_downloads: true
-facebook: "http://facebook.com/abiliocastro"
-twitter: "http://twitter.com/AbilioCastro"
+social_networks:
+  facebook: "http://facebook.com/abiliocastro"
+  twitter: "http://twitter.com/AbilioCastro"
+  instagram: "http://instagram.com/abiliocastro"
