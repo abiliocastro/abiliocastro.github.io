@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-Conteudo Inicial
 # Formação Acadêmica
 ## 2017-Atual 
 Bacharelado em Engenharia de Software - UFC - Campus Quixadá
