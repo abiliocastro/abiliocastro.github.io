@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Abilio Castro
 ---
 # Formação Acadêmica
 ## 2017-Atual 
