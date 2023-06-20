@@ -8,9 +8,8 @@ var initial = [
 	' ',
 	'Available options:',
 	'exp: complete Abilio\'s experience',
-  'edu: get education information',
-  'pro: see developed projects',
   'net: social network links',
+	'cle: clear all outputs / resets terminal',
 	' '
 ];
 
@@ -28,9 +27,24 @@ var experience = [
 	' '
 ];
 
+var networks = [
+	'------------------  Social Network Links  ------------------',
+	' ',
+	'* LinkedIn',
+	'  https://www.linkedin.com/in/abiliocastro/',
+	' ',
+  '* GitHub',
+	'  https://github.com/abiliocastro',
+	' ',
+  '* Instagram',
+	'  https://www.instagram.com/abiliocastro/',
+	' '
+];
+
 function termOpen() {
-  const colNum = Math.floor(document.getElementsByTagName('html')[0].clientWidth / 13.25)
-  const rowNum = Math.floor(window.innerHeight / 24)
+	const screenSize = document.getElementsByTagName('html')[0].clientWidth;
+  const colNum = Math.floor(screenSize / 13.2)
+  const rowNum = Math.floor(window.innerHeight / 23.5)
 
 	if ((!term) || (term.closed)) {
 		term = new Terminal(
@@ -39,6 +53,8 @@ function termOpen() {
 				y: 0,
 				termDiv: 'termDiv',
 				bgColor: '#000000',
+				frameColor: '#000000',
+				frameWidth: 15,
         cols: colNum,
         rows: rowNum,
         crsrBlinkMode: true,
@@ -67,10 +83,17 @@ function termHandler() {
 	
 	switch (cmd) {
 		case 'exp':
+		case 'experience':
 			this.write(experience);
 			break;
+
+		case 'net':
+		case 'network':
+			this.write(networks);
+			break;
     
-    case 'clear':
+    case 'cle':
+		case 'clear':
       this.clear();
       this.write(initial);
       this.prompt();
