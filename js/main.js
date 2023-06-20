@@ -8,8 +8,6 @@ var initial = [
 	' ',
 	'Available options:',
 	'exp: complete Abilio\'s experience',
-  'edu: get education information',
-  'pro: see developed projects',
   'net: social network links',
 	'cle: clear all outputs / resets terminal',
 	' '
