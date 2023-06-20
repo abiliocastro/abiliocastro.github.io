@@ -1,3 +1,5 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 body,p,a,td,li {
 	font-family: courier,fixed,swiss,sans-serif;
 	font-size: 12px;
