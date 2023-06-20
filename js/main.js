@@ -11,6 +11,7 @@ var initial = [
   'edu: get education information',
   'pro: see developed projects',
   'net: social network links',
+	
 	' '
 ];
 
