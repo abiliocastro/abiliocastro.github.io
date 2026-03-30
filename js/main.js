@@ -3,7 +3,7 @@ var term;
 var initial = [
 	'%+r                    Abilio Castro e Silva                    %-r',
 	' ',
-	'* Junior Java Backend Developer at Decartes System Group,',
+	'* Backend Developer at Decartes System Group,',
 	'* Bachelor in Software Engineering by Federal University of Ceará',
 	' ',
 	'Available options:',
@@ -22,7 +22,7 @@ var experience = [
   '* Java Backend Intern           | Aug 2019 - Nov 2019',
 	'  Company: OSF Global Services',
 	' ',
-  '* Entrepeneur                   | Jan 2016 - Current',
+  '* Entrepeneur                   | Jan 2016 - Apr 2020',
 	'  Company: Calango Digital',
 	' '
 ];
