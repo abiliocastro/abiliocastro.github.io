@@ -16,7 +16,7 @@ var initial = [
 var experience = [
 	'-----------------------  Experience  -----------------------',
 	' ',
-	'* Junior Java Backend Developer | Apr 2020 - Current',
+	'* Backend Developer | Apr 2020 - Current',
 	'  Company: Decartes System Group',
 	' ',
   '* Java Backend Intern           | Aug 2019 - Nov 2019',
@@ -43,8 +43,8 @@ var networks = [
 
 function termOpen() {
 	const screenSize = document.getElementsByTagName('html')[0].clientWidth;
-  const colNum = Math.floor(screenSize / 13.2)
-  const rowNum = Math.floor(window.innerHeight / 23.5)
+  	const colNum = Math.floor(screenSize / 13.2)
+  	const rowNum = Math.floor(window.innerHeight / 23.5)
 
 	if ((!term) || (term.closed)) {
 		term = new Terminal(
